@@ -53,25 +53,26 @@ R_{z}\left ( \alpha \right )=\begin{bmatrix}
  0&  0&  0& 1
 \end{bmatrix}
 $$
+- 世界坐标系到无人机坐标系下的变换矩阵
+$$R_{x}\left ( \alpha _{v}\right )R_{y}\left ( \beta _{v}\right )R_{z}\left ( \gamma _{v}\right )$$
 
-$R_{x}\left ( \alpha _{v}\right )R_{y}\left ( \beta _{v}\right )R_{z}\left ( \gamma _{v}\right )$
-：为世界坐标系到无人机坐标系下的变换矩阵
+- 无人机坐标系到云台坐标系下变换矩阵
+$$R_{x}\left ( \alpha _{g}\right )R_{y}\left ( \beta _{g}\right )R_{z}\left ( \gamma _{g}\right )$$
 
-$R_{x}\left ( \alpha _{g}\right )R_{y}\left ( \beta _{g}\right )R_{z}\left ( \gamma _{g}\right )$
-：无人机坐标系到云台坐标系下变换矩阵
-
-$\begin{bmatrix}
+$$\begin{bmatrix}
 X_{w}\\ 
 Y_{w}\\ 
 Z_{w}\\
 1
-\end{bmatrix}为世界坐标系下坐标$
-$\begin{bmatrix}
+\end{bmatrix}为世界坐标系下坐标$$
+
+$$\begin{bmatrix}
 X_{c}\\ 
 Y_{c}\\ 
 Z_{c}\\
 1
-\end{bmatrix}为相机坐标系下坐标$    
+\end{bmatrix}为相机坐标系下坐标$$
+
 - 忽略平移变换可得到相机坐标系下坐标到世界坐标系下的变换：
 
   $$
@@ -95,6 +96,7 @@ $$
 </p>
 
 - 下面求向量$\underset{P_{1}P_{2}}{\rightarrow}$在世界坐标系下的坐标。先将求$\underset{P_{1}P_{2}}{\rightarrow}$向量在相机坐标系下的坐标表示；所以要求$\underset{P_{1}P_{2}}{\rightarrow}$点在相机坐标系下的坐标。已知它们在成像平面的坐标$\left ( u_{1},v_{1}\right )\left ( u_{2},v_{2}\right )$，将它们变换到与相机坐标系下的$XOZ$面；
+
 $$
 \begin{bmatrix}
 x_{c}\\ 
@@ -110,6 +112,7 @@ v_{c}\\
 1
 \end{bmatrix}(2)
 $$
+
 $\begin{bmatrix}
 x_{c}\\ 
 z_{c}\\ 
