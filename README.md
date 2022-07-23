@@ -54,21 +54,19 @@ R_{z}\left ( \alpha \right )=\begin{bmatrix}
 \end{bmatrix}
 $$
 
--   $R_{x}\left ( \alpha _{v}\right )R_{y}\left ( \beta _{v}\right )R_{z}\left ( \gamma _{v}\right )$
+$R_{x}\left ( \alpha _{v}\right )R_{y}\left ( \beta _{v}\right )R_{z}\left ( \gamma _{v}\right )$
+：为世界坐标系到无人机坐标系下的变换矩阵
 
-为世界坐标系到无人机坐标系下的变换矩阵
+$R_{x}\left ( \alpha _{g}\right )R_{y}\left ( \beta _{g}\right )R_{z}\left ( \gamma _{g}\right )$
+：无人机坐标系到云台坐标系下变换矩阵
 
--   $R_{x}\left ( \alpha _{g}\right )R_{y}\left ( \beta _{g}\right )R_{z}\left ( \gamma _{g}\right )$
-
-无人机坐标系到云台坐标系下变换矩阵
-
--   $\begin{bmatrix}
+$\begin{bmatrix}
 X_{w}\\ 
 Y_{w}\\ 
 Z_{w}\\
 1
 \end{bmatrix}为世界坐标系下坐标$
--   $\begin{bmatrix}
+$\begin{bmatrix}
 X_{c}\\ 
 Y_{c}\\ 
 Z_{c}\\
