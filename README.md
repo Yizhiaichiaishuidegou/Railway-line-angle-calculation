@@ -115,7 +115,7 @@ v_{c}\\
 \end{bmatrix}(2)
 $$
 
-$\begin{bmatrix}
+  $\begin{bmatrix}
 x_{c}\\ 
 z_{c}\\ 
 1
@@ -124,6 +124,7 @@ u_{c}\\
 v_{c}\\ 
 1
 \end{bmatrix}：原坐标系下坐标$
+
 - 根据$P_{1}^{*}$坐标$\left(x_{c},z_{c}\right)$可求出,$P_{1}$在相机坐标系下$X、Z$方向的坐标，但需要$P_{1}$的深度信息
 
 <p align = "center">
