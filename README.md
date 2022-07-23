@@ -54,22 +54,22 @@ R_{z}\left ( \alpha \right )=\begin{bmatrix}
 \end{bmatrix}
 $$
 
-- $R_{x}\left ( \alpha _{v}\right )R_{y}\left ( \beta _{v}\right )R_{z}\left ( \gamma _{v}\right )$；为世界坐标系到无人机坐标系下的变换矩阵
-- $R_{x}\left ( \alpha _{g}\right )R_{y}\left ( \beta _{g}\right )R_{z}\left ( \gamma _{g}\right )$：无人机坐标系到云台坐标系下变换矩阵
-- $\begin{bmatrix}
+-   $R_{x}\left ( \alpha _{v}\right )R_{y}\left ( \beta _{v}\right )R_{z}\left ( \gamma _{v}\right )$；为世界坐标系到无人机坐标系下的变换矩阵
+-   $R_{x}\left ( \alpha _{g}\right )R_{y}\left ( \beta _{g}\right )R_{z}\left ( \gamma _{g}\right )$：无人机坐标系到云台坐标系下变换矩阵
+-   $\begin{bmatrix}
 X_{w}\\ 
 Y_{w}\\ 
 Z_{w}\\
 1
 \end{bmatrix}为世界坐标系下坐标$
-- $\begin{bmatrix}
+-   $\begin{bmatrix}
 X_{c}\\ 
 Y_{c}\\ 
 Z_{c}\\
 1
 \end{bmatrix}为相机坐标系下坐标$    
 - 忽略平移变换可得到相机坐标系下坐标到世界坐标系下的变换：
-$$
+  $$
 \begin{bmatrix}
 X_{w}\\ 
 Y_{w}\\ 
@@ -81,7 +81,7 @@ Y_{c}\\
 Z_{c}\\
 1
 \end{bmatrix}(1)
-$$
+$$  
 ## 2.1 Railway lines coordinates in the world coordinate system
 
 <p align = "center">
