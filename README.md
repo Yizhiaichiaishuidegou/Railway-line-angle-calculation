@@ -54,9 +54,11 @@ R_{z}\left ( \alpha \right )=\begin{bmatrix}
 \end{bmatrix}
 $$
 - 世界坐标系到无人机坐标系下的变换矩阵
+
 $$R_{x}\left ( \alpha _{v}\right )R_{y}\left ( \beta _{v}\right )R_{z}\left ( \gamma _{v}\right )$$
 
 - 无人机坐标系到云台坐标系下变换矩阵
+
 $$R_{x}\left ( \alpha _{g}\right )R_{y}\left ( \beta _{g}\right )R_{z}\left ( \gamma _{g}\right )$$
 
 $$\begin{bmatrix}
@@ -75,7 +77,7 @@ Z_{c}\\
 
 - 忽略平移变换可得到相机坐标系下坐标到世界坐标系下的变换：
 
-  $$
+$$
 \begin{bmatrix}
 X_{w}\\ 
 Y_{w}\\ 
