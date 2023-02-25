@@ -31,6 +31,7 @@
 <p align = "center">
 <img width="500"  src="image/cood1.png">
 </p>
+
 世界坐标系下坐标到无人机坐标系下坐标是一个旋转变换（右手系）： $R_{x}\left ( \alpha \right )$ 表示绕X轴旋转的旋转矩阵（ $R_{y}\left ( \alpha \right )$, $R_{z}\left (\alpha \right )$ 同理）
 
 $$
@@ -136,6 +137,7 @@ $$
 $$
 \frac{Z_{P_{1}}}{Z_{P_{1}^{*}}}=\frac{Y_{p_{1}}}{f}\Rightarrow Z_{P_{1}}=\frac{Z_{P_{1}^{*}}*Y_{p_{1}}}{f}(3)
 $$
+
 ## 2.2 Find the depth coordinates of point $P_{1}$
 
 <p align = "center">
